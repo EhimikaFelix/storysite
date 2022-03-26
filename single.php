@@ -31,11 +31,7 @@ $posts = selectAll('posts', ['published' => 1]);
 </head>
 
 <body>
-  <!-- Facebook Page Plugin SDK -->
-  <!-- <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous"
-    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=285071545181837&autoLogAppEvents=1">
-  </script> -->
+ 
 
   <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
 
@@ -61,13 +57,9 @@ $posts = selectAll('posts', ['published' => 1]);
       <!-- Sidebar -->
       <div class="sidebar single">
 
-        <!-- <div class="fb-page" data-href="https://web.facebook.com/codingpoets/" data-small-header="false"
-          data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-          <blockquote cite="https://web.facebook.com/codingpoets/" class="fb-xfbml-parse-ignore"><a
-              href="https://web.facebook.com/codingpoets/">Coding Poets</a></blockquote>
-        </div> -->
+        
 
-
+<!--//Popular Section-->
         <div class="section popular">
           <h2 class="section-title">Popular</h2>
 
@@ -82,7 +74,7 @@ $posts = selectAll('posts', ['published' => 1]);
           
 
         </div>
-
+        <!-- // Topic Section --> 
         <div class="section topics">
           <h2 class="section-title">Topics</h2>
           <ul>

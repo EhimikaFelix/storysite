@@ -102,7 +102,7 @@ if (isset($_GET['t_id'])) {
       <!-- // Main Content -->
 
       <div class="sidebar">
-
+<!--//Search Bar-->
         <div class="section search">
           <h2 class="section-title">Search</h2>
           <form action="index.php" method="post">
@@ -110,7 +110,7 @@ if (isset($_GET['t_id'])) {
           </form>
         </div>
 
-
+<!--//Topic Section-->
         <div class="section topics">
           <h2 class="section-title">Topics</h2>
           <ul>

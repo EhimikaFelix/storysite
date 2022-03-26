@@ -28,7 +28,7 @@ guestsOnly();
 <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
 
   <div class="auth-content">
-
+<!--//Form Section-->
     <form action="login.php" method="post">
       <h2 class="form-title">Login</h2>
 

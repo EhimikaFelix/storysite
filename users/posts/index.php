@@ -58,7 +58,7 @@
                             <th>SN</th>
                             <th>Title</th>
                             <th>Author</th>
-                            <th colspan="3">Action</th>
+                        
                         </thead>
                         <tbody>
                             <?php foreach ($posts as $key => $post): ?>
@@ -66,7 +66,7 @@
                                     <td><?php echo $key + 1; ?></td>
                                     <td><?php echo $post['title'] ?></td>
                                     <td>Ehimika</td>
-                                    <td><a href="edit.php?id=<?php echo $post['id']; ?>" class="edit">edit</a></td>
+                                    
                                     
 
                                    <!--  <?php if ($post['published']): ?>
